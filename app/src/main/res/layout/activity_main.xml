@@ -5,35 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/womanpushups"
-    android:paddingHorizontal="24dp"
+    android:background="@android:color/black"
     >
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/userentry1"
-        android:layout_centerVertical="true"
-        >
-        <com.google.android.material.button.MaterialButton
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="login"
-            />
-        <com.google.android.material.button.MaterialButton
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="register"
-            />
-    </LinearLayout>
-    <com.google.android.material.button.MaterialButton
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Check Us Out"
-        android:layout_below="@id/userentry1"
-        />
-
+<androidx.viewpager2.widget.ViewPager2
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/myviewpager1"
+    />
 
 </RelativeLayout>
