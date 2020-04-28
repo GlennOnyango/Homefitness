@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntroFragment2"
+    android:background="@drawable/man"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnthird"
+        android:paddingHorizontal="10dp"
+        >
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="login"
+            android:layout_marginEnd="5px"
+            android:backgroundTint="@android:color/darker_gray"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="register"
+            android:backgroundTint="@android:color/darker_gray"
+            />
+    </LinearLayout>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="10dp"
+        android:text="Try Us"
+        android:id="@+id/btnthird"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5px"
+        android:backgroundTint="@android:color/darker_gray"
+        />
+
+</RelativeLayout>
