@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager2.widget.ViewPager2;
 
 import android.os.Bundle;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,5 +15,8 @@ public class MainActivity extends AppCompatActivity {
 
         ViewPager2 vp2 = findViewById(R.id.myviewpager1);
         vp2.setAdapter(new IntroAdapter(this));
+
+
+
     }
 }
