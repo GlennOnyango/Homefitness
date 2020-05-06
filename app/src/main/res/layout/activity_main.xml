@@ -5,12 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@android:color/black"
+    android:background="@drawable/intro_slide_image_1"
     >
-<androidx.viewpager2.widget.ViewPager2
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:id="@+id/myviewpager1"
-    />
+
+    <include layout="@layout/login_lay"/>
+    <include layout="@layout/join_layout"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginHorizontal="24dp"
+        android:text="Get Started"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/openLogin"
+        android:onClick="OpenLoginfromLanding"
+        />
 
 </RelativeLayout>
